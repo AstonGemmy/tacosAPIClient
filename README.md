@@ -9,8 +9,7 @@ Run `ng serve` for a dev server.
 
 ## Use
 
-Open your browser and navigate to `http://localhost:4200/`.
-Click on `See Tacos Recipes` button on the app homepage or enter `http://localhost:4200/tacos` in the url bar to load and display a random list of Tacos recipes.
+Open your browser and navigate to `http://localhost:4200/` to see a list of randomly fetched Tacos recipes.
 Refreshing the page should generate a new set of random recipes.
 
 ## Build

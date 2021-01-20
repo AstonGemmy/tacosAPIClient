@@ -164,19 +164,18 @@
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  Nucco
+  Nicco Tacos Recipes
 </div>
 
 <div class="content" role="main">
 
-  <!-- Highlight Card -->
-  <div class="card highlight-card card-small">
-
-    <a href="/tacos">{{linkText}}</a>
-
+  <div *ngFor="let item of tacos | keyvalue">
+    {{item.value.recipe}} <br/><br/>
+    <!-- {{item.value.url}} <br>
+    {{item.value.slug}} <br>
+    {{item.value.recipe}} <br><br> -->
   </div>
 
-    
 </div>
 
 <router-outlet></router-outlet>

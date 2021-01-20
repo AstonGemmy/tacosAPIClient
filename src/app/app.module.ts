@@ -4,12 +4,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TacosComponent } from './tacos/tacos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TacosComponent
   ],
   imports: [
     BrowserModule,
