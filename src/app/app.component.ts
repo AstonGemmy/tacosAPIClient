@@ -8,7 +8,6 @@ import { ApiService } from './api.service';
 })
 export class AppComponent implements OnInit {
 
-  linkText = 'See Taco Recipes';
   tacos;
 
   constructor(private apiService: ApiService) { }
@@ -18,5 +17,5 @@ export class AppComponent implements OnInit {
       this.tacos = data;
     });
   }
-  
+
 }

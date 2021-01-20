@@ -99,6 +99,13 @@
     fill: rgb(105, 103, 103);
   }
 
+  .item {
+    width:80%;
+    padding:0.5rem 4rem;
+    font-size: 1.5rem;
+    margin:0.5rem auto;
+  }
+
   .card.highlight-card {
     background-color: #1976d2;
     color: white;
@@ -169,8 +176,8 @@
 
 <div class="content" role="main">
 
-  <div *ngFor="let item of tacos | keyvalue">
-    {{item.value.recipe}} <br/><br/>
+  <div class="item" *ngFor="let item of tacos | keyvalue">
+    {{item.value.name}}
     <!-- {{item.value.url}} <br>
     {{item.value.slug}} <br>
     {{item.value.recipe}} <br><br> -->
