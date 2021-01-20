@@ -1,5 +1,5 @@
 # Tacos Recipe API Client
-
+This project is a RESTful API client app that consumes an API endpoint which returns a Tacos data object.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
 ## Development server
